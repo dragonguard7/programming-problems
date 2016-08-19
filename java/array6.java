@@ -7,7 +7,7 @@ array6([6], 0) -> true
 */
 
 public boolean array6(int[] nums, int index) {
-  if(index == nums.length){
+  if(index >= nums.length){
     return false;
   }
   if(nums[index] == 6){
